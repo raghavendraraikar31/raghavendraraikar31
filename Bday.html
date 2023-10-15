@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siri bdy</title>
+    <style>
+        /* Optional: Add some styling to the video container */
+        #video-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Optional: Style the video player controls */
+        video {
+            width: 100%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="video-container">
+    <!-- Use the controls attribute to display video controls (play, pause, etc.) -->
+    <video controls>
+        <!-- Provide multiple sources for cross-browser compatibility -->
+        <source src="sirivideo.mp4" type="video/mp4">
+        <source src="sirivideo.webm" type="video/webm">
+        <!-- Add more source elements if needed, such as for different formats -->
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+</body>
+</html>
